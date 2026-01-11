@@ -1,0 +1,2 @@
+poetry with html and css
+não ficou muito adaptado pro pc mas ainda pretendo aprimora --> https://codebyhi.github.io/poetry_project/

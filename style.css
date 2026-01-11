@@ -1,0 +1,233 @@
+@charset "UTF-8";
+:root{
+    --cor01: black;
+    --cor02: white;
+    --cor03: blueviolet;
+    --cor04: rgb(109, 18, 18);
+    --cor04: green;
+    --cor05: #151515;
+}
+@font-face {
+    font-family: 'codebythi';
+    src: url('04B_30__.TTF') format('opentype');
+}
+@font-face {
+    font-family: 'garden';
+    src: url('Sunroll.ttf') format('opentype');
+}
+@font-face {
+    font-family: 'monsterrat';
+    src: url('Montserrat-VariableFont_wght.ttf') format('opentype');
+}
+@font-face {
+    font-family: 'angel';
+    src: url('AngelicWar.otf') format('opentype');
+}
+@font-face {
+    font-family: 'bebas';
+    src: url('BebasNeue-Regular.otf') format('opentype');
+}
+@font-face {
+    font-family: 'joui';
+    src: url('Hoshiko\ Satsuki.ttf') format('opentype');
+}
+@font-face {
+    font-family: 'zelda';
+    src: url('The\ Wild\ Breath\ of\ Zelda.otf') format('truetype');
+}
+/* ------------------------------------------------------cabeçario---------------------------------------- */
+body{
+    margin: 0px;
+    width: 100%;
+    height: 40%;
+    background: var(--cor02
+    );
+}
+.cabeçario{
+    background: var(--cor05);
+    position: relative;
+    padding: 0px 0px 0px 0px;
+}
+.logo{
+    font: normal 25px 'garden';
+    color: white;
+    min-width: 5%;
+    max-width:  40%;
+    text-align: center;
+    margin: auto 0px auto 29%;
+    text-align: center;
+    padding: 50px 0px 40px 10px;
+}
+nav{
+    position: absolute;
+    top: 4%;
+    left: 40px;
+    padding: 5px;
+    width: 150px;
+}
+.rpg{
+    margin: 0px 20px 0px 0px;
+    text-decoration: none;
+    font: 500 18px 'monsterrat', arial, helvetica, sans-serif;
+    color: white;
+    position: absolute;
+    top: 300%;
+    right: 80%;
+}
+.rede{
+    font: 300 15px codebythi;
+    color: white;
+    text-decoration: none;
+    padding: 0px 0px 5px 0xp;
+    text-shadow: 2px 2px 1px rgb(88, 29, 143);
+    right: 50%;
+    position: absolute;
+}
+.rede:hover{
+    border: 0px 0px 2px 0px;
+    
+}
+div{
+    width: 30%;
+}
+/* ---------------------------------------------
+*/
+.introdução{
+    text-align: center;
+    line-height: 25px;
+    font: 500 1em monsterrat;
+}
+.introdução>h1{
+    font: normal 3em bebas;
+    margin: 20px 0px 10px 0px;
+}
+.introdução>p{
+    margin: 0px 5px 30px 5px;
+}
+/* ---------------------------------conteúdo principal-------------------------------------- */
+
+.titulo{
+    color: var(--cor03);
+    text-align: center;
+    left: 33%;
+    font: normal 2em angel;
+    padding: 50px 3px 50px 3px;
+    margin: 20px;
+
+}
+.carta{
+    background: var(--cor05);
+    position: relative;
+}
+.p1{
+    color: rgb(77, 9, 139);
+    top: 30%;
+    left: 10%;
+    font: 300 30px serif;
+    margin: 0px 0px 0px 0px;
+    padding: 30px 10px 60px 10px;
+    text-align: center;
+    background: var(--cor01) url(file.svg) center center no-repeat fixed;
+    background-size: cover;
+    height: 100%;
+}
+
+.p2{
+    height: 130px;
+    background: var(--cor02);
+    text-align: center;
+    font: normal 20px monsterrat;
+    margin: 0px;
+    padding: 50px 30px 30px 30px;
+    background: var(--cor03) url(Kaiser_no_Livro_de_Regras_de_Ordem_Paranormal.webp) center center no-repeat scroll;
+    background-size: 100%;
+    max-width: 500px;
+    margin: 0px auto 5px auto;
+}
+.p3{
+    height: px;
+    background: var(--cor01) url(file\ 1.svg) center center no-repeat fixed;
+    background-size: cover;
+    margin: 0px;
+    font: normal 30px serif;
+    color: rgb(143, 15, 15)
+    ;
+    text-align: center;
+    padding: 50px 20px 60px 20px;
+}
+.titulo2{
+    font: normal 70px 'joui';
+    padding: 0px 10px 0px 10px;
+    color: red;
+}
+.titulo4{
+    height: 50px;
+    background: var(--cor05);
+    margin: 0px;
+    font: 300 3em bebas;
+    text-align: center;
+
+    color: var(--cor02);
+}
+.p4{
+    background: var(--cor05);
+    margin: 0px;
+    padding: 10px;
+    font: normal 15px monsterrat;
+    text-align: center;
+    margin: 0px 50px 0px 50px;
+    color: var(--cor02);
+}
+.ou{
+    background: 
+    var(--cor05);
+    color: var(--cor02);
+    font: 300
+    15px monsterrat;
+    text-align: center;
+    padding: 0px 0px 40px 0px;}
+.joui{
+    font: normal 3em bebas;
+}
+.thi{
+    background: var(--cor02) url(download\ \(1\).jpg) center center no-repeat fixed;
+    background-size: cover;
+    height: 100%;
+    font: 300 30px serif;
+    color: var(--cor01);
+    text-align: center;
+    padding: 0px 20px 30px 20px;
+    margin: 0px;
+}
+.porta{
+    font: normal 3em zelda;
+    color: var(--cor01);
+    padding: 0px 20px 0px 20px;
+}
+/* ---------------------------------------------------------------------------------------------------------- */
+.rodape{
+    text-align: center;
+    background: var(--cor03);
+    margin: 0px;
+    height: 25px;
+    padding: 7px 0px 0px 0px;
+    color: rgba(0, 0, 0, 0.548);
+    font: 400 15px arial;
+}
+.rodape>a{
+    font: bold 15px arial;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.548);
+}
+.rodape>a:hover{
+    text-decoration: underline;
+}
+.porta2{
+    background: var(--cor05);
+    margin: 0px;
+    padding: 30px;
+    font: normal 15px monsterrat;
+    text-align: center;
+    margin: 0px 50px 0px 50px;
+    color: var(--cor02);
+}

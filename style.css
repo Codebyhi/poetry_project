@@ -1,4 +1,5 @@
 @charset "UTF-8";
+/* para deixar a letras maiusculas e com a primeira letra maior nois usamos text-variant: small-caps; */
 :root{
     --cor01: black;
     --cor02: white;

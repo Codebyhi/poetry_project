@@ -1,5 +1,7 @@
 @charset "UTF-8";
 /* para deixar a letra maiuscula e com a primeira letra maior nois usamos text-variant: small-caps; */
+/* para adaptar melhor o padding de um background nois usamos a medida vh */
+/* medida vw --> largura da tela, sempre usado pra adaptar fontes */
 :root{
     --cor01: black;
     --cor02: white;
@@ -50,7 +52,7 @@ body{
     padding: 0px 0px 0px 0px;
 }
 .logo{
-    font: normal 25px 'garden';
+    font: normal 2.5vw 'garden';
     color: white;
     min-width: 5%;
     max-width:  40%;
